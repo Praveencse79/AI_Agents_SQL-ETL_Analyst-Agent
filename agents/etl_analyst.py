@@ -11,8 +11,7 @@ from langgraph.graph import StateGraph, START, END
 from langchain.tools import tool
 from langchain_anthropic import ChatAnthropic
 
-
-#------------------------------------ AGENT TOOLS ------------------------------------#
+#------------------------------------ AGENT TOOLS -----------------------------------#
 
 
 @tool
