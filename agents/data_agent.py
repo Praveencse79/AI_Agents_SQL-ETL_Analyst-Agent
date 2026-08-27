@@ -14,7 +14,6 @@ from langchain_anthropic import ChatAnthropic
 from agents.etl_analyst import etl_analyst
 from agents.sql_analyst import sql_analyst
 
-
 llm = pick_llm("claude")
 
 llm_router = llm.with_structured_output(RouterSchema)
